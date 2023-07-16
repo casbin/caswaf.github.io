@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcaswaf_website=self.webpackChunkcaswaf_website||[]).push([[159],{6076:a=>{a.exports=JSON.parse('{"label":"caswaf","permalink":"/blog/tags/caswaf","allTagsPath":"/blog/tags","count":1}')}}]);
