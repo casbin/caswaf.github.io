@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcaswaf_website=self.webpackChunkcaswaf_website||[]).push([[51],{2320:e=>{e.exports=JSON.parse('{"title":"Certs","slug":"/category/certs","permalink":"/docs/category/certs","navigation":{"previous":{"title":"Site List","permalink":"/docs/site"},"next":{"title":"Cert List","permalink":"/docs/cert"}}}')}}]);

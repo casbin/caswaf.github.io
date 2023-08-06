@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcaswaf_website=self.webpackChunkcaswaf_website||[]).push([[241],{8016:s=>{s.exports=JSON.parse('{"title":"Sites","slug":"/category/sites","permalink":"/ru/docs/category/sites","navigation":{"previous":{"title":"Casdoor SSO","permalink":"/ru/docs/casdoor-sso"},"next":{"title":"Site List","permalink":"/ru/docs/site"}}}')}}]);
