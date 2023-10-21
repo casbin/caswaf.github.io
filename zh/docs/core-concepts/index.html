@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="zh" dir="ltr" class="docs-wrapper docs-doc-page docs-version-current plugin-docs plugin-id-default docs-doc-id-core-concepts">
+<html lang="zh" dir="ltr" class="docs-wrapper docs-doc-page docs-version-current plugin-docs plugin-id-default docs-doc-id-core-concepts" data-has-hydrated="false">
 <head>
 <meta charset="UTF-8">
-<meta name="generator" content="Docusaurus v2.4.1">
+<meta name="generator" content="Docusaurus v2.4.3">
 <title data-rh="true">Core Concepts | CasWAF · Web Application Firewall (WAF), aligned with ModSecurity, powered by Casbin and Casdoor</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://caswaf.org/zh/docs/core-concepts"><meta data-rh="true" name="docusaurus_locale" content="zh"><meta data-rh="true" name="docsearch:language" content="zh"><meta data-rh="true" name="CasWAF" content="Web Application Firewall (WAF), aligned with ModSecurity, powered by Casbin and Casdoor"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Core Concepts | CasWAF · Web Application Firewall (WAF), aligned with ModSecurity, powered by Casbin and Casdoor"><meta data-rh="true" name="description" content="Core concepts of CasWAF"><meta data-rh="true" property="og:description" content="Core concepts of CasWAF"><meta data-rh="true" name="keywords" content="caswaf"><link data-rh="true" rel="icon" href="/zh/img/favicon.png"><link data-rh="true" rel="canonical" href="https://caswaf.org/zh/docs/core-concepts"><link data-rh="true" rel="alternate" href="https://caswaf.org/docs/core-concepts" hreflang="en"><link data-rh="true" rel="alternate" href="https://caswaf.org/zh/docs/core-concepts" hreflang="zh"><link data-rh="true" rel="alternate" href="https://caswaf.org/fr/docs/core-concepts" hreflang="fr"><link data-rh="true" rel="alternate" href="https://caswaf.org/de/docs/core-concepts" hreflang="de"><link data-rh="true" rel="alternate" href="https://caswaf.org/ko/docs/core-concepts" hreflang="ko"><link data-rh="true" rel="alternate" href="https://caswaf.org/ru/docs/core-concepts" hreflang="ru"><link data-rh="true" rel="alternate" href="https://caswaf.org/ja/docs/core-concepts" hreflang="ja"><link data-rh="true" rel="alternate" href="https://caswaf.org/docs/core-concepts" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/zh/blog/rss.xml" title="CasWAF · Web Application Firewall (WAF), aligned with ModSecurity, powered by Casbin and Casdoor RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/zh/blog/atom.xml" title="CasWAF · Web Application Firewall (WAF), aligned with ModSecurity, powered by Casbin and Casdoor Atom Feed">
 
@@ -11,9 +11,9 @@
 
 <script>!function(t,h,e,j,s,n){t.hj=t.hj||function(){(t.hj.q=t.hj.q||[]).push(arguments)},t._hjSettings={hjid:3575159,hjsv:6},s=h.getElementsByTagName("head")[0],(n=h.createElement("script")).async=1,n.src="https://static.hotjar.com/c/hotjar-"+t._hjSettings.hjid+".js?sv="+t._hjSettings.hjsv,s.appendChild(n)}(window,document)</script>
 <script src="/js/isMainland.js" async></script>
-<script src="/js/tawk.js" async></script><link rel="stylesheet" href="/zh/assets/css/styles.b5fd62ff.css">
-<link rel="preload" href="/zh/assets/js/runtime~main.94ec547f.js" as="script">
-<link rel="preload" href="/zh/assets/js/main.f9af92a5.js" as="script">
+<script src="/js/tawk.js" async></script><link rel="stylesheet" href="/zh/assets/css/styles.bba54741.css">
+<link rel="preload" href="/zh/assets/js/runtime~main.d397593f.js" as="script">
+<link rel="preload" href="/zh/assets/js/main.de5e8213.js" as="script">
 </head>
 <body class="navigation-with-keyboard">
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}return t}()||function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();null!==e?t(e):window.matchMedia("(prefers-color-scheme: dark)").matches?t("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,t("light"))}(),document.documentElement.setAttribute("data-announcement-bar-initially-dismissed",function(){try{return"true"===localStorage.getItem("docusaurus.announcement.dismiss")}catch(t){}return!1}())</script><div id="__docusaurus">
@@ -22,7 +22,7 @@
               </li><li class="footer__item">
 <script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?497e6839ee12099a2de5c51cbccdd763";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script>
 </li><li class="footer__item"><div class="placeholderads"></div></li></ul></div></div><div class="footer__bottom text--center"><div class="margin-bottom--sm"><a href="https://caswaf.org/" rel="noopener noreferrer" class="footerLogoLink_BH7S"><img src="/zh/img/casbin_min.svg" alt="Casbin Logo" class="themedImage_ToTc themedImage--light_HNdA footer__logo"><img src="/zh/img/casbin_min.svg" alt="Casbin Logo" class="themedImage_ToTc themedImage--dark_i4oU footer__logo"></a></div><div class="footer__copyright">Copyright © 2023 CasWAF contributors.</div></div></div></footer></div>
-<script src="/zh/assets/js/runtime~main.94ec547f.js"></script>
-<script src="/zh/assets/js/main.f9af92a5.js"></script>
+<script src="/zh/assets/js/runtime~main.d397593f.js"></script>
+<script src="/zh/assets/js/main.de5e8213.js"></script>
 </body>
 </html>
