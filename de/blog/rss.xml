@@ -4,7 +4,7 @@
         <title>CasWAF · Web Application Firewall (WAF), aligned with ModSecurity, powered by Casbin and Casdoor Blog</title>
         <link>https://caswaf.org/de/blog</link>
         <description>CasWAF · Web Application Firewall (WAF), aligned with ModSecurity, powered by Casbin and Casdoor Blog</description>
-        <lastBuildDate>Sat, 21 Oct 2023 14:24:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Nov 2023 05:24:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>de</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Welcome]]></title>
             <link>https://caswaf.org/de/blog/welcome</link>
             <guid>https://caswaf.org/de/blog/welcome</guid>
-            <pubDate>Sat, 21 Oct 2023 14:24:04 GMT</pubDate>
+            <pubDate>Tue, 28 Nov 2023 05:24:21 GMT</pubDate>
             <description><![CDATA[Welcome to CasWAF website!]]></description>
             <content:encoded><![CDATA[<p>Welcome to CasWAF website!</p>]]></content:encoded>
             <category>caswaf</category>
