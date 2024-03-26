@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://caswaf.org/ko/blog</id>
     <title>CasWAF · Web Application Firewall (WAF), aligned with ModSecurity, powered by Casbin and Casdoor Blog</title>
-    <updated>2023-11-28T05:24:21.000Z</updated>
+    <updated>2024-03-26T04:49:51.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://caswaf.org/ko/blog"/>
     <subtitle>CasWAF · Web Application Firewall (WAF), aligned with ModSecurity, powered by Casbin and Casdoor Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://caswaf.org/ko/blog/welcome</id>
         <link href="https://caswaf.org/ko/blog/welcome"/>
-        <updated>2023-11-28T05:24:21.000Z</updated>
+        <updated>2024-03-26T04:49:51.000Z</updated>
         <summary type="html"><![CDATA[Welcome to CasWAF website!]]></summary>
         <content type="html"><![CDATA[<p>Welcome to CasWAF website!</p>]]></content>
         <author>
