@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcaswaf_website=self.webpackChunkcaswaf_website||[]).push([[9362],{9206:e=>{e.exports=JSON.parse('{"title":"Actions","slug":"/category/actions","permalink":"/fr/docs/category/actions","navigation":{"previous":{"title":"Compound Rule","permalink":"/fr/docs/compound-rule"},"next":{"title":"Action List","permalink":"/fr/docs/action"}}}')}}]);
